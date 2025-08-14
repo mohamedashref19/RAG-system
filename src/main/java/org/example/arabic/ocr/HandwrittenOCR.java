@@ -26,7 +26,7 @@ public class HandwrittenOCR {
         tesseract.setVariable("textord_min_linesize", "2.5"); // للخط اليدوي
     }
 
-    // تحسين الصورة قبل OCR
+
     private BufferedImage enhanceImage(BufferedImage original) {
         int width = original.getWidth();
         int height = original.getHeight();
